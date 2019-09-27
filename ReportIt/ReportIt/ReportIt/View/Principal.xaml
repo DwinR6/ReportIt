@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ReportIt.View.Principal">
+    <ContentPage.Content>
+        
+            <Grid Padding="10">
+                 <Grid.RowDefinitions>
+                     <RowDefinition Height="*"/>
+                     <RowDefinition Height="*"/>
+                     <RowDefinition Height="*"/>
+                     <RowDefinition Height="*"/>
+                 </Grid.RowDefinitions>
+                 <Grid.ColumnDefinitions>
+                     <ColumnDefinition Width="Auto"/>
+                 </Grid.ColumnDefinitions>
+               
+                 <ImageButton Grid.Row="0" Aspect="AspectFill" x:Name="ibtnViolencia" Clicked="IbtnViolencia_Clicked" CornerRadius="20" Source="violencia.jpg" BackgroundColor="Green" HorizontalOptions="FillAndExpand" 
+                  VerticalOptions="CenterAndExpand"/>
+                 <Button Text="Violencia de Genero" BackgroundColor="Transparent" x:Name="BtnViolencia" Clicked="BtnViolencia_Clicked" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="End" TextColor="Red" FontSize="20" FontAttributes="Bold"/>
+                 
+                <ImageButton Grid.Row="1" Aspect="AspectFill" x:Name="ibtnRobo" Clicked="IbtnRobo_Clicked" CornerRadius="20" Source="robo.jpg" BackgroundColor="Green" HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="CenterAndExpand"/>
+                 <Button Text="Robo/Hurto" BackgroundColor="Transparent" x:Name="BtnRobo" Clicked="BtnRobo_Clicked" Grid.Row="1" HorizontalOptions="Center" VerticalOptions="End" TextColor="Red" FontSize="20" FontAttributes="Bold"/>
+                 
+                <ImageButton Grid.Row="2" Aspect="AspectFill" x:Name="ibtnNarco" Clicked="IbtnNarco_Clicked" CornerRadius="20" Source="narco.jpg" BackgroundColor="Green" HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="CenterAndExpand"/>
+                 <Button Text="Narcotrafico" BackgroundColor="Transparent" x:Name="BtnNarco" Clicked="BtnNarco_Clicked" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="End" TextColor="Red" FontSize="20" FontAttributes="Bold"/>
+                 
+                <ImageButton Grid.Row="3" Aspect="AspectFill" x:Name="ibtnCorrupcion" Clicked="IbtnCorrupcion_Clicked" CornerRadius="20" Source="corrupcion.jpg" BackgroundColor="Green" HorizontalOptions="FillAndExpand" 
+                           VerticalOptions="CenterAndExpand"/>
+                 <Button Text="Corrupcion" BackgroundColor="Transparent" x:Name="BtnCorrupcion" Clicked="BtnCorrupcion_Clicked" Grid.Row="3" HorizontalOptions="Center" VerticalOptions="End" TextColor="Red" FontSize="20" FontAttributes="Bold"/>
+
+
+        </Grid>
+       
+    </ContentPage.Content>
+</ContentPage>
