@@ -30,32 +30,32 @@ namespace ReportIt.View
 
         private void IbtnRobo_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new RoboView());
         }
 
         private void BtnRobo_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new RoboView());
         }
 
         private void IbtnNarco_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new NarcotraficoView());
         }
 
         private void BtnCorrupcion_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new NarcotraficoView());
         }
 
         private void BtnNarco_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new CorrupcionView());
         }
 
         private void IbtnCorrupcion_Clicked(object sender, EventArgs e)
         {
-
+            Navigation.PushAsync(new CorrupcionView());
         }
     }
 }

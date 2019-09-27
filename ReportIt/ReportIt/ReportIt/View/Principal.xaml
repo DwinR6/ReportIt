@@ -29,7 +29,9 @@
                  
                 <ImageButton Grid.Row="3" Aspect="AspectFill" x:Name="ibtnCorrupcion" Clicked="IbtnCorrupcion_Clicked" CornerRadius="20" Source="corrupcion.jpg" BackgroundColor="Green" HorizontalOptions="FillAndExpand" 
                            VerticalOptions="CenterAndExpand"/>
-                 <Button Text="Corrupcion" BackgroundColor="Transparent" x:Name="BtnCorrupcion" Clicked="BtnCorrupcion_Clicked" Grid.Row="3" HorizontalOptions="Center" VerticalOptions="End" TextColor="Red" FontSize="20" FontAttributes="Bold"/>
+            <Frame Grid.Row="3" BackgroundColor="Gray" Opacity="0.4" Padding="0">
+                <Button Text="Corrupcion" BackgroundColor="Transparent" x:Name="BtnCorrupcion" Clicked="BtnCorrupcion_Clicked" HorizontalOptions="Center" VerticalOptions="End" TextColor="Red" FontSize="20" FontAttributes="Bold"/>
+            </Frame>
 
 
         </Grid>
